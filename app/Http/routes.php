@@ -53,3 +53,6 @@ Route::group(['prefix'=>'admin','middleware'=>'auth'],function(){
         Route::get('destroy/{id}', ['as'=>'admin.post.destroy','uses'=>'PostAdminController@destroy']);
     });
 });
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
