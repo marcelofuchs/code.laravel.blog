@@ -1,3 +1,6 @@
+## Micro Blog baseado no framework laravel.
+Parte integrante do curso de laravel da code.education.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
